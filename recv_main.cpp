@@ -4,8 +4,9 @@
 #include <thread>
 #include <string>
 
+using namespace std;
+
 int main(int argc,char **argv){
-	using namespace std;
 	string read, read_a, read_b;
 	cout<<"test...."<<endl;	
 	Serial lora("/dev/ttyUSB0",9600);

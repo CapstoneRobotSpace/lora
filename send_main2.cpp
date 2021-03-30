@@ -60,6 +60,7 @@ int main(int argc, char **argv){
 			
 		}
 		else{
+			read = "";
 			cout<<"I'm ready to read"<<endl;
 			while(1){
 				if(lora.sread(&read_buf, sizeof(char))>0){
